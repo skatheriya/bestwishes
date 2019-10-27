@@ -1,5 +1,5 @@
 {
-  "name": "next.js-typescript-starter-kit",
+  "name": "1-place",
   "version": "8.1.0",
   "main": "index.js",
   "repository": "https://github.com/deptno/next.js-typescript-starter-kit",
@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "next",
     "start:dev": "next",
     "build:dev": "next build",
     "build": "NODE_ENV=production next build",
@@ -30,7 +31,9 @@
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "redux-persist": "^4.9.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.4.0",
+    "tslint": "^5.20.0"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.6",
