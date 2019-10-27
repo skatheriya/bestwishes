@@ -17,7 +17,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "ts:check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit",
+    "deploy": "yarn run build && yarn run export"
   },
   "dependencies": {
     "classnames": "^2.2.6",
